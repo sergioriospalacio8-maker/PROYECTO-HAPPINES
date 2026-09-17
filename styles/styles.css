@@ -107,8 +107,9 @@ img {
 }
 
 .sec-numbers {
-  padding: 0 20px 0 60px 0;
+  padding: 0 30px 0 80px 0;
   background-color: #fff;
+  
 }
 
 .card-numbers {
@@ -121,11 +122,13 @@ img {
   align-items: center;
   gap: 30px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
 }
 
 .card-left {
   flex: 1;
   max-width: 320px;
+  
 }
 
  .card-left h3 {
@@ -380,7 +383,7 @@ img {
 .footer {
   background-color: #000;
   color: #fff;
-  padding: 50px 0 20px 0;
+  padding: 50px 420px 20px 0;
 }
 
 .footer-content {
