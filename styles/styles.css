@@ -283,7 +283,7 @@ img {
 
 .sec-method {
   padding: 80px 0;
-  background-color: #e8e8e8;
+  background-color: #d3d3d3;
 }
 
 .flex-reverse {
@@ -417,7 +417,7 @@ img {
 
 .footer-bottom {
   
-  border-top: 1px solid #333;
+  border-top: 1px solid #fff;
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -430,4 +430,6 @@ img {
   color: #ffd000;
   margin-left: 15px;
   font-size: 14px;
+ 
+
 }
