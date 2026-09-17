@@ -240,4 +240,30 @@ img {
   justify-content: flex-end;
 }
 
+.card-pct-chart img {
+  width: 160px;
+}
 
+.sec-about-black {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sec-about-black h2 {
+  color: #ffd000;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 13px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.5;
+  color: #ccc;
+}
