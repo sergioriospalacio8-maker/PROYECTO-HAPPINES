@@ -127,3 +127,56 @@ img {
   flex: 1;
   max-width: 320px;
 }
+
+ .card-left h3 {
+  color: #ffd000;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.card-left p {
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.link-more {
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.card-right-charts {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.chart-img {
+  max-height: 140px;
+  object-fit: contain;
+}
+
+.sec-yellow-banner {
+  background-color: #ffd000;
+  padding: 60px 0;
+}
+
+.banner-grid {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.banner-text {
+  flex: 1;
+}
+
+.banner-text h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
