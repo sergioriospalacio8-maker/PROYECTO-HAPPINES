@@ -291,3 +291,33 @@ img {
   padding: 80px 0;
   background-color: #fff;
 }
+
+.fn-grid {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.form-box {
+  flex: 1;
+  background-color: #000;
+  padding: 30px;
+  color: #fff;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-group label {
+  font-size: 11px;
+  margin-bottom: 4px;
+}
