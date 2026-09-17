@@ -99,4 +99,31 @@ img {
   margin-bottom: 20px;
 }
 
+.hero-text p {
+  color: #000000;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
 
+.sec-numbers {
+  padding: 0 20px 0 60px 0;
+  background-color: #fff;
+}
+
+.card-numbers {
+  max-width: 950px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-left {
+  flex: 1;
+  max-width: 120px;
+}
