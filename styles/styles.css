@@ -180,3 +180,37 @@ img {
   font-size: 42px;
   margin-bottom: 20px;
 }
+
+.banner-text p {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.banner-img {
+  flex: 1.2;
+}
+
+.sec-pct-happiness {
+  padding: 80px 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.card-pct {
+  max-width: 950px;
+  background-color: #e5e5e5;
+  display: flex;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card-pct-img {
+  flex: 1.2;
+}
+
+.card-pct-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
