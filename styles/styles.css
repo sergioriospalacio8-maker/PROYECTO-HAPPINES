@@ -355,3 +355,30 @@ img {
   line-height: 1.6;
   margin-bottom: 25px;
 }
+
+.sec-contact-yellow {
+  background-color: #ffd000;
+  padding: 50px 0;
+}
+
+.sec-contact-yellow h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.sec-contact-yellow .subtitle {
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.map-box {
+  max-width: 900px;
+  margin: 0 auto 25px auto;
+  border: 2px solid #fff;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0 20px 0;
+}
