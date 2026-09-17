@@ -214,3 +214,30 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+ .card-pct-content {
+  flex: 1;
+  padding: 40px;
+  position: relative;
+}
+
+.card-pct-content h3 {
+  color: #ffd000;
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.card-pct-content p {
+  font-size: 12px;
+  color: #000000;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.card-pct-chart {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
