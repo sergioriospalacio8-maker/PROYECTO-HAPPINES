@@ -691,3 +691,128 @@ img {
 
 }
 
+@media (max-width: 920px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px 5%;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .nav {
+        width: 100%;
+        justify-content: center;
+        gap: 12px 20px;
+    }
+
+    .nav a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .sec-hero {
+        padding: 45px 0;
+    }
+
+    .hero-grid {
+        gap: 25px;
+    }
+
+    .hero-text h2 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 13px;
+    }
+
+    .hero-img img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-numbers {
+        padding: 25px;
+        gap: 20px;
+    }
+
+    .card-left h3 {
+        font-size: 28px;
+    }
+
+    .card-right-charts {
+        gap: 15px;
+    }
+
+    .chart-img {
+        max-width: 45%;
+        max-height: 120px;
+    }
+
+    .sec-yellow-banner {
+        padding: 45px 0;
+    }
+
+    .banner-grid {
+        gap: 25px;
+    }
+
+    .banner-text h2 {
+        font-size: 32px;
+    }
+
+    .sec-pct-happiness {
+        padding: 55px 24px;
+    }
+
+    .card-pct-content {
+        padding: 25px;
+    }
+
+    .card-pct-content h3 {
+        font-size: 28px;
+    }
+
+    .sec-about-black,
+    .sec-team,
+    .sec-method,
+    .sec-form-newsletter {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .sec-about-black h2,
+    .sec-contact-yellow h2 {
+        font-size: 32px;
+    }
+
+    .fn-grid {
+        gap: 25px;
+    }
+
+    .form-box {
+        padding: 20px;
+    }
+
+    .form-row {
+        gap: 10px;
+    }
+
+    .newsletter-box h2 {
+        font-size: 29px;
+    }
+
+    .footer {
+        padding: 35px 5% 20px;
+    }
+
+    .footer-links {
+        gap: 25px;
+        margin-bottom: 35px;
+    }
+
+}
