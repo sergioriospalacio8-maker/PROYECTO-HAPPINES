@@ -816,3 +816,376 @@ img {
     }
 
 }
+
+@media (max-width: 768px) {
+
+    body {
+        zoom: 1;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 5%;
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+    }
+
+    .nav a {
+        font-size: 13px;
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .sec-hero {
+        padding: 40px 0;
+    }
+
+    .hero-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero-img,
+    .hero-text {
+        width: 100%;
+        max-width: 600px;
+        flex: none;
+        min-width: 0;
+    }
+
+    .hero-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-img img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h2 {
+        font-size: 34px;
+        line-height: 1.15;
+        overflow-wrap: break-word;
+    }
+
+    .hero-text p {
+        width: 100%;
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.7;
+    }
+
+    .hero-text .btn {
+        max-width: 100%;
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+
+    .sec-numbers {
+        padding: 0 24px;
+    }
+
+    .card-numbers {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 25px;
+        gap: 25px;
+    }
+
+    .card-left {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card-left h3 {
+        font-size: 29px;
+        overflow-wrap: break-word;
+    }
+
+    .card-left p {
+        overflow-wrap: break-word;
+        line-height: 1.6;
+    }
+
+    .card-right-charts {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .chart-img {
+        width: 45%;
+        max-width: 100%;
+        max-height: 140px;
+        object-fit: contain;
+    }
+
+    .sec-yellow-banner {
+        padding: 45px 0;
+    }
+
+    .banner-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .banner-text,
+    .banner-img {
+        width: 100%;
+        max-width: 600px;
+        flex: none;
+        min-width: 0;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-text h2 {
+        font-size: 34px;
+        line-height: 1.15;
+        overflow-wrap: break-word;
+    }
+
+    .banner-text p {
+        overflow-wrap: break-word;
+        line-height: 1.7;
+    }
+
+    .banner-img img {
+        width: 100%;
+        max-width: 550px;
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+    }
+
+    .sec-pct-happiness {
+        padding: 45px 24px;
+    }
+
+    .card-pct {
+        width: 100%;
+        flex-direction: column;
+        max-width: 600px;
+    }
+
+    .card-pct-img {
+        width: 100%;
+        flex: none;
+    }
+
+    .card-pct-img img {
+        width: 100%;
+        height: auto;
+        max-height: 350px;
+        object-fit: cover;
+    }
+
+    .card-pct-content {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .card-pct-content h3 {
+        font-size: 30px;
+        overflow-wrap: break-word;
+    }
+
+    .card-pct-content p {
+        line-height: 1.7;
+        overflow-wrap: break-word;
+    }
+
+    .card-pct-chart {
+        justify-content: center;
+    }
+
+    .card-pct-chart img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sec-about-black {
+        padding: 45px 0;
+    }
+
+    .sec-about-black h2 {
+        font-size: 32px;
+        overflow-wrap: break-word;
+    }
+
+    .subtitle {
+        width: 100%;
+        max-width: 600px;
+        padding: 0 10px;
+        overflow-wrap: break-word;
+    }
+
+    .about-img-box {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .about-img-box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sec-team,
+    .sec-method {
+        padding: 50px 0;
+    }
+
+    .flex-reverse {
+        flex-direction: column;
+    }
+
+    .sec-form-newsletter {
+        padding: 45px 0;
+    }
+
+    .fn-grid {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 35px;
+    }
+
+    .form-box,
+    .newsletter-box {
+        width: 100%;
+        max-width: 600px;
+        flex: none;
+        min-width: 0;
+        margin: 0 auto;
+    }
+
+    .form-box {
+        padding: 25px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .form-group {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .newsletter-box {
+        padding-top: 0;
+    }
+
+    .newsletter-box h2 {
+        font-size: 32px;
+        overflow-wrap: break-word;
+    }
+
+    .newsletter-box p {
+        line-height: 1.7;
+        overflow-wrap: break-word;
+    }
+
+    .sec-contact-yellow {
+        padding: 40px 0;
+    }
+
+    .sec-contact-yellow h2 {
+        font-size: 32px;
+        overflow-wrap: break-word;
+    }
+
+    .map-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .map-box img,
+    .map-box iframe {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer {
+        padding: 35px 24px 20px;
+    }
+
+    .footer-logo img {
+        max-width: 100%;
+        height: auto;
+        max-height: 60px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-bottom: 35px;
+    }
+
+    .footer-links .col {
+        flex: 1 1 130px;
+        min-width: 0;
+    }
+
+    .footer-links a {
+        overflow-wrap: break-word;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        line-height: 1.6;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .social-icons a {
+        margin-left: 0;
+    }
+
+}
