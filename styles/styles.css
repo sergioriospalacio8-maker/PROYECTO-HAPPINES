@@ -432,3 +432,262 @@ img {
   margin-left: 15px;
   font-size: 14px;
 }
+
+@media (max-width: 1279px) {
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    body {
+        zoom: 1;
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1100px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .header {
+        width: 100%;
+        padding: 10px 24px;
+        gap: 20px;
+    }
+
+    .logo {
+        margin-left: 0;
+        flex-shrink: 0;
+    }
+
+    .logo-img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .nav a {
+        margin-left: 0;
+        overflow-wrap: break-word;
+    }
+
+    .hero-grid {
+        gap: 35px;
+    }
+
+    .hero-img,
+    .hero-text {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .hero-text h2 {
+        font-size: 36px;
+        overflow-wrap: break-word;
+    }
+
+    .hero-img img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .hero-text p {
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .sec-numbers {
+        padding: 0 24px;
+    }
+
+    .card-numbers {
+        width: 100%;
+        max-width: 950px;
+        padding: 30px;
+        gap: 25px;
+    }
+
+    .card-left {
+        min-width: 0;
+    }
+
+    .card-right-charts {
+        min-width: 0;
+        flex-wrap: wrap;
+    }
+
+    .chart-img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .banner-grid {
+        gap: 35px;
+    }
+
+    .banner-text,
+    .banner-img {
+        min-width: 0;
+    }
+
+    .banner-text h2 {
+        font-size: 36px;
+        overflow-wrap: break-word;
+    }
+
+    .banner-text p {
+        overflow-wrap: break-word;
+    }
+
+    .banner-img img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .card-pct {
+        width: 100%;
+        max-width: 950px;
+        min-width: 0;
+    }
+
+    .card-pct-img,
+    .card-pct-content {
+        min-width: 0;
+    }
+
+    .card-pct-img img {
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .card-pct-content {
+        padding: 30px;
+    }
+
+    .card-pct-content h3 {
+        font-size: 30px;
+        overflow-wrap: break-word;
+    }
+
+    .card-pct-content p {
+        overflow-wrap: break-word;
+    }
+
+    .card-pct-chart img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .fn-grid {
+        gap: 35px;
+    }
+
+    .form-box,
+    .newsletter-box {
+        min-width: 0;
+    }
+
+    .form-box {
+        padding: 25px;
+    }
+
+    .form-row {
+        flex-wrap: wrap;
+    }
+
+    .form-group {
+        min-width: 0;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .newsletter-box h2 {
+        font-size: 32px;
+        overflow-wrap: break-word;
+    }
+
+    .newsletter-box p {
+        overflow-wrap: break-word;
+    }
+
+    .map-box {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .map-box img,
+    .map-box iframe {
+        max-width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 40px 30px 20px;
+    }
+
+    .footer-content {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+
+    .footer-links .col {
+        min-width: 0;
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap;
+        gap: 15px;
+        overflow-wrap: break-word;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .social-icons a {
+        margin-left: 0;
+    }
+
+}
+
